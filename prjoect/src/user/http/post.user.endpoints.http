@@ -1,0 +1,9 @@
+POST http://localhost:3000/user/create
+Content-Type: application/json
+# Validation errror with a duplicate email SEE
+{
+  "firstName": "kanka",
+  "lastName": "Das",
+  "email": "kanka.das@example.com",
+  "password": "Test183#"
+}

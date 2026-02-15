@@ -1,0 +1,19 @@
+
+GET http://localhost:3000/some.text/
+
+GET http://localhost:3000/post/
+
+GET http://localhost:3000/posts/            
+GET http://localhost:3000/tag/
+
+GET http://localhost:3000/tags/
+
+GET http://localhost:3000/tagsssssssssssss/
+GET http://localhost:3000/error/404
+
+GET http://localhost:3000/error/404
+
+GET http://localhost:3000/drangonfly    
+GET http://localhost:3000/fly
+
+GET http://localhost:3000/flybird

@@ -1,0 +1,15 @@
+POST http://localhost:3000/tasks
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OTdjYWZiM2E2ZmRkYTE2M2EwMTNjYmMiLCJlbWFpbCI6ImthbmthLmRhc0BleGFtcGxlLmNvbSIsImlhdCI6MTc2OTc5OTM3NCwiZXhwIjoxNzY5ODg1Nzc0fQ.LRDn7FL-QKBSS23ugoYuwiEKtCyiceADw3k4YSsnhC8
+    
+
+{
+  "title": "Task with long description23",
+  "dueDate": "2025-01-01T12:00:00Z",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lobortis diam vel malesuada ultricies.",
+  "priority": "normal",
+  "status": "todo"
+  
+
+  
+}

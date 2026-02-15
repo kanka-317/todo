@@ -1,0 +1,13 @@
+PATCH http://localhost:3000/tasks
+Content-Type: application/json
+Authorization: Bearer <PASTE_JWT_TOKEN_HERE>
+
+
+{
+  "_id": "6978e044340d68079f15a176",
+  "title": "new task title updated",
+  "dueDate": "2025-01-01T12:00:00Z",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lobortis diam vel malesuada ultricies.",
+  "priority": "normal",
+  "status": "todo"
+}
